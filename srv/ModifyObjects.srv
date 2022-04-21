@@ -1,3 +1,4 @@
 string[] names
+bool all
 ---
 bool result
