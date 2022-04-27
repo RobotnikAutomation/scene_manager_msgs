@@ -5,6 +5,7 @@ project(scene_manager_msgs)
 set(MSG_DEPS
   std_msgs
   actionlib_msgs
+  geometry_msgs
 )
 
 find_package(catkin REQUIRED COMPONENTS message_generation ${MSG_DEPS})
@@ -12,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation ${MSG_DEPS})
 
 set(SRV_FILES
 ModifyObjects.srv
+MoveTo.srv
 )
 
 add_service_files(DIRECTORY srv FILES ${SRV_FILES})
