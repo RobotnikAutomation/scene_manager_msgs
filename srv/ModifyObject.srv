@@ -1,5 +1,5 @@
 string object_id
-geometry_msgs/Pose pose 
+geometry_msgs/PoseStamped pose 
 scene_manager_msgs/Layout layout
 ---
 bool result
